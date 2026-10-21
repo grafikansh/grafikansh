@@ -1,0 +1,14 @@
+media:
+  - name: images
+    label: Images
+    input: /
+    output: /
+content:
+  - name: website
+    label: Website
+    type: file
+    path: index.html
+    fields:
+      - name: title
+        label: Title
+        type: string
